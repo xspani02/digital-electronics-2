@@ -21,13 +21,26 @@ int main(void)
 {
     // Set pin where on-board LED is connected as output
     pinMode(LED_GREEN, OUTPUT);
-
+    uint8_t led_value = HIGH;
+    
+    // LONG_DELAY is 1500 ms
+    // SHORT DELAY is 500 ms,   ratio dot/comma = 1/3
+    // LED is connected in active high way
+    
     // Infinite loop
     while (1)
     {
         // Generate a lettre `A` Morse code
 
         // WRITE YOUR CODE HERE
+        digitalWrite(LED_GREEN, led_value);
+        _delay_ms(SHORT_DELAY);
+        digitalWrite(LED_GREEN, !led_value);        
+        _delay_ms(SHORT_DELAY);
+        digitalWrite(LED_GREEN, led_value);
+        _delay_ms(LONG_DELAY);
+        digitalWrite(LED_GREEN, !led_value);
+        _delay_ms(SHORT_DELAY);
 
     }
 
@@ -38,4 +51,5 @@ int main(void)
 
 2. Scheme of Morse code application, i.e. connection of AVR device, LED, resistor, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-  
+  ![image](https://user-images.githubusercontent.com/99726477/193290337-a14aae13-fbe7-410e-af89-db4ffb681f91.png)
+
