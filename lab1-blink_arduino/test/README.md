@@ -23,8 +23,8 @@ int main(void)
     pinMode(LED_GREEN, OUTPUT);
     uint8_t led_value = HIGH;
     
-    // LONG_DELAY is 1500 ms
-    // SHORT DELAY is 500 ms,   ratio dot/comma = 1/3
+    // LONG_DELAY could be 1500 ms
+    // SHORT DELAY could be 500 ms,   ratio dot/comma = 1/3
     // LED is connected in active high way
     
     // Infinite loop
