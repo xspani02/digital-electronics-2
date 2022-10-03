@@ -30,17 +30,7 @@ The purpose of this laboratory exercise is to learn how to use basic input/outpu
  
 1. Draw two basic ways to connect a LED to the output pin of the microcontroller: LED active-low, LED active-high.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/99726477/193628437-5b6e5b29-189a-496e-84fa-db756c5c3b5e.png)
 
 2. [Calculate LED resistor value](https://electronicsclub.info/leds.htm) for typical LEDs. Let the LED current is 20 milli amps.
 
@@ -63,17 +53,7 @@ R = \frac{V_{SUPPLY}-V_{LED}}{I} =
 
 3. Draw the basic ways to connect a push button to the microcontroller input pin: button active-low, button active-high.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+![image](https://user-images.githubusercontent.com/99726477/193628515-34309b6d-c97b-400e-8756-2f8a83f607fa.png)
 
 <a name="part1"></a>
 
