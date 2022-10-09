@@ -10,7 +10,7 @@ in the development cycle.
 More information about PlatformIO Unit Testing:
 - https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
 
-# Lab 2: YOUR_FIRSTNAME LASTNAME
+# Lab 2: ŠIMON ŠPÁNIK
 
 ### GPIO control registers
 
