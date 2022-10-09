@@ -19,9 +19,9 @@ More information about PlatformIO Unit Testing:
    | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | input | no | Tri-state, high-impedance |
-   | 0 | 1 | input | yes | |
-   | 1 | 0 | output | no | output low|
-   | 1 | 1 | output | no | |
+   | 0 | 1 | input | yes | Pxn will source current if ext. pulled low |
+   | 1 | 0 | output | no | output LOW |
+   | 1 | 1 | output | no | output HIGH |
 
 ### GPIO library
 
@@ -37,4 +37,4 @@ More information about PlatformIO Unit Testing:
 
 3. Scheme of traffic light application with one red/yellow/green light for cars, one red/green light for pedestrians, and one push button. Connect AVR device, LEDs, resistors, push button (for pedestrians), and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99726477/194774089-01581272-ac47-4871-a6bb-3c0c82425d77.png)
