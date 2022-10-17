@@ -32,22 +32,23 @@ More information about PlatformIO Unit Testing:
     * @note  t_OVF = 1/F_CPU * prescaler * 2^n where n = 8, F_CPU = 16 MHz
     */
    // WRITE YOUR CODE HERE
+   /** @brief 000 - STOP */
    #define TIM2_stop()           TCCR2B &= ~((1<<CS22) | (1<<CS21) | (1<<CS20));
-
+   /** @brief 001 - 1bit */
    #define TIM2_overflow_16us()   TCCR2B &= ~((1<<CS22) | (1<<CS21)); TCCR2B |= (1<<CS20);
-
+   /** @brief 010 - 8bit */
    #define TIM2_overflow_128us()  TCCR2B &= ~((1<<CS22) | (1<<CS20)); TCCR2B |= (1<<CS21);
-
+   /** @brief 011 - 32bit */
    #define TIM2_overflow_512us() TCCR2B &= ~(1<<CS22); TCCR2B |= (1<<CS21) | (1<<CS20);
-
+   /** @brief 100 - 64bit */
    #define TIM2_overflow_1ms()    TCCR2B &= ~((1<<CS21) | (1<<CS20)); TCCR2B |= (1<<CS22);
-
+   /** @brief 101 - 128bit */
    #define TIM2_overflow_2ms()    TCCR2B &= ~(1<<CS21); TCCR2B |= (1<<CS22) | (1<<CS20);
-
+   /** @brief 110 - 256bit */
    #define TIM2_overflow_4ms()    TCCR2B &= ~(1<<CS20); TCCR2B |= (1<<CS22) | (1<<CS21);
-
+   /** @brief 111 - 1024bit */
    #define TIM2_overflow_16ms()   TCCR2B |= (1<<CS22) | (1<<CS21) | (1<<CS20);
-
+ 
 
    /** @brief Enable overflow interrupt, 1 --> enable */
    #define TIM2_overflow_interrupt_enable()  TIMSK2 |= (1<<TOIE2);
