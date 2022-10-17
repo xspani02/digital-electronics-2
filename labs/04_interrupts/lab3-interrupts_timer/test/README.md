@@ -53,4 +53,5 @@ More information about PlatformIO Unit Testing:
 #define TIM2_overflow_interrupt_enable()  TIMSK2 |= (1<<TOIE2);
 /** @brief Disable overflow interrupt, 0 --> disable */
 #define TIM2_overflow_interrupt_disable() TIMSK2 &= ~(1<<TOIE2);
+
    ```
