@@ -16,7 +16,7 @@ More information about PlatformIO Unit Testing:
 
 1. Draw a flowchart for `TIMER2_OVF_vect` interrupt service routine which overflows every 16&nbsp;ms but it updates the stopwatch LCD screen approximately every 100&nbsp;ms (6 x 16&nbsp;ms = 100&nbsp;ms). Display tenths of a second, seconds, and minutes and let the stopwatch counts from `00:00.0` to `59:59.9` and then starts again. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-  ![image](https://user-images.githubusercontent.com/99726477/197545177-6e7c8997-ef6e-4914-9e55-a9a86b42afcd.png)
+  ![image](https://user-images.githubusercontent.com/99726477/197546036-565d1497-349d-473d-92e9-778314f87420.png)
 
 ### Kitchen alarm
 
