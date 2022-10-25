@@ -88,7 +88,7 @@ The purpose of the laboratory exercise is to understand analog-to-digital conver
    | Down   | 1.203&nbsp;V | 246 |  |  |
    | Left   | 1.97 V | 403 |  |  |
    | Select | 3.18 V | 650.6 |  |  |
-   | none   |  |  |  |  |
+   | none   | 5 V | 1023 |  |  |
 
    ![SimulIDE](images/screenshot_simulide_lcd_probe.png)
 
