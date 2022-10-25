@@ -84,11 +84,11 @@ The purpose of the laboratory exercise is to understand analog-to-digital conver
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
-   | Up     | 0.495&nbsp;V | 101 |  |  |
-   | Down   | 1.203&nbsp;V | 246 |  |  |
-   | Left   | 1.97 V | 403 |  |  |
-   | Select | 3.18 V | 650.6 |  |  |
-   | none   | 5 V | 1023 |  |  |
+   | Up     | 0.495&nbsp;V | 101 | 99 |  |
+   | Down   | 1.203&nbsp;V | 246 | 257 |  |
+   | Left   | 1.97 V | 403 | 409 |  |
+   | Select | 3.18 V | 650.6 | 639 |  |
+   | none   | 5 V | 1023 | 1023 |  |
 
    ![SimulIDE](images/screenshot_simulide_lcd_probe.png)
 
