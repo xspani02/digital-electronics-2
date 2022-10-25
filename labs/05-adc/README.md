@@ -84,11 +84,11 @@ The purpose of the laboratory exercise is to understand analog-to-digital conver
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
-   | Up     | 0.495&nbsp;V | 101 |  |  |
-   | Down   | 1.203&nbsp;V | 246 |  |  |
-   | Left   |  |  |  |  |
-   | Select |  |  |  |  |
-   | none   |  |  |  |  |
+   | Up     | 0.495&nbsp;V | 101 | 99 | 63 |
+   | Down   | 1.203&nbsp;V | 246 | 257 | 101 |
+   | Left   | 1.97 V | 403 | 409 | 199 |
+   | Select | 3.18 V | 650.6 | 639 | 27f |
+   | none   | 5 V | 1023 | 1023 | 3ff |
 
    ![SimulIDE](images/screenshot_simulide_lcd_probe.png)
 
@@ -118,7 +118,7 @@ AVR ADC module has 10-bit resolution with +/-2LSB accuracy. It means it returns 
    | :-- | :-: | :-: | :-- |
    | Voltage reference    | ADMUX | REFS1:0 | 00: ..., 01: AVcc voltage reference (5V), ... |
    | Input channel        | ADMUX | MUX3:0 | 0000: ADC0, 0001: ADC1, ... |
-   | ADC enable           | ADCSRA |  |  |
+   | ADC enable           | ADCSRA | ADEN0:0 | by 1 is ADC turned on |
    | Start conversion     |  |  |  |
    | ADC interrupt enable |  |  |  |
    | ADC clock prescaler  |  | ADPS2:0 | 000: Division factor 2, 001: 2, 010: 4, ...|
