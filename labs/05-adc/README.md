@@ -29,6 +29,8 @@ The purpose of the laboratory exercise is to understand analog-to-digital conver
 ## Pre-Lab preparation
 
 1. Use schematic of the [LCD keypad shield](https://oshwlab.com/tomas.fryza/arduino-shields) and find out the connection of five push buttons: Select, Left, Up, Down, and Right.
+![image](https://user-images.githubusercontent.com/99726477/197750932-23c8ff6f-0890-410d-bbfc-ba2cb1c49c80.png)
+
 
 2. Remind yourself, what a [voltage divider](https://www.allaboutcircuits.com/tools/voltage-divider-calculator/) is.
 
