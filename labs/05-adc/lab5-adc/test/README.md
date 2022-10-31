@@ -10,7 +10,7 @@ in the development cycle.
 More information about PlatformIO Unit Testing:
 - https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
 
-# Lab 5: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 5: Šimon Špánik
 
 ### Analog-to-Digital Conversion
 
@@ -19,11 +19,11 @@ More information about PlatformIO Unit Testing:
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
-   | Up     | 0.495&nbsp;V | 101 |  |  |
-   | Down   | 1.203&nbsp;V | 246 |  |  |
-   | Left   |  |  |  |  |
-   | Select |  |  |  |  |
-   | none   |  |  |  |  |
+   | Up     | 0.495&nbsp;V | 101 | 99 | 63 |
+   | Down   | 1.203&nbsp;V | 246 | 257 | 101 |
+   | Left   | 1.97 V | 403 | 409 | 199 |
+   | Select | 3.18 V | 650.6 | 639 | 27f |
+   | none   | 5 V | 1023 | 1023 | 3ff |
 
 ### Temperature meter
 
