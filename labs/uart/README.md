@@ -88,10 +88,8 @@ In the lab, we are using [UART library](http://www.peterfleury.epizy.com/avr-sof
    | :-- | :-- | :-- | :-- |
    | `uart_init` | `UART_BAUD_SELECT(9600, F_CPU)` | Initialize UART to 8N1 and set baudrate to 9600&nbsp;Bd | `uart_init(UART_BAUD_SELECT(9600, F_CPU));` |
    | `uart_getc` | `UART_NO_DATA` `UART_BUFFER_OVERFLOW` `UART_OVERRUN_ERROR` `UART_FRAME_ERROR` | Get received byte from ringbuffer. |
-   | `uart_putc` | `data	byte to be transmitted
-` | Put byte to ringbuffer for transmitting via UART. |
-   | `uart_puts` | s	string to be transmitted
- | Put string to ringbuffer for transmitting via UART. |
+   | `uart_putc` | `data	byte to be transmitted` | Put byte to ringbuffer for transmitting via UART. |
+   | `uart_puts` | `s	string to be transmitted` | Put string to ringbuffer for transmitting via UART. |
 
 2. Copy/paste [template code](https://raw.githubusercontent.com/tomas-fryza/digital-electronics-2/master/labs/06-uart/main.c) to `LAB6-UART > src > main.c` source file.
 
