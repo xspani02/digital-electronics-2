@@ -22,8 +22,7 @@ More information about PlatformIO Unit Testing:
    * SPI pins
    * external interrupt pins INT0, INT1
 
-   ![your figure](images/arduino_uno_pinout.png)
-
+   ![image](https://user-images.githubusercontent.com/99726477/201697111-ad980338-773e-486c-87d5-af701ac488e1.png)
 ### I2C communication
 
 2. Draw a timing diagram of I2C signals when calling function `rtc_read_years()`. Let this function reads one byte-value from RTC DS3231 address `06h` (see RTC datasheet) in the range `00` to `99`. Specify when the SDA line is controlled by the Master device and when by the Slave device. Draw the whole request/receive process, from Start to Stop condition. The image can be drawn on a computer (by [WaveDrom](https://wavedrom.com/) for example) or by hand. Name all parts of timing diagram.
