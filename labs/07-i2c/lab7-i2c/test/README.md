@@ -15,12 +15,12 @@ More information about PlatformIO Unit Testing:
 ### Arduino Uno pinout
 
 1. In the picture of the Arduino Uno board, mark the pins that can be used for the following functions/operations:
-   * PWM generators from Timer0, Timer1, Timer2
-   * analog channels for ADC
-   * UART pins
-   * I2C pins
-   * SPI pins
-   * external interrupt pins INT0, INT1
+   * PWM generators from Timer0, Timer1, Timer2 -> PD3,PD5,PD6,PB1,PB2,PB3
+   * analog channels for ADC -> PC0,PC1,PC2,PC3,PC4,PC5
+   * UART pins -> PD0,PD1
+   * I2C pins -> PC4,PC5
+   * SPI pins -> PB2,PB3,PB4,PB5
+   * external interrupt pins INT0, INT1 -> INT0: PD2;  INT1: PD3
 
    ![image](https://user-images.githubusercontent.com/99726477/201697111-ad980338-773e-486c-87d5-af701ac488e1.png)
 ### I2C communication
