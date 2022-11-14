@@ -10,7 +10,7 @@ in the development cycle.
 More information about PlatformIO Unit Testing:
 - https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
 
-# Lab 7: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 7: Šimon Špánik
 
 ### Arduino Uno pinout
 
@@ -27,7 +27,7 @@ More information about PlatformIO Unit Testing:
 
 2. Draw a timing diagram of I2C signals when calling function `rtc_read_years()`. Let this function reads one byte-value from RTC DS3231 address `06h` (see RTC datasheet) in the range `00` to `99`. Specify when the SDA line is controlled by the Master device and when by the Slave device. Draw the whole request/receive process, from Start to Stop condition. The image can be drawn on a computer (by [WaveDrom](https://wavedrom.com/) for example) or by hand. Name all parts of timing diagram.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99726477/201714740-2c724516-1eca-44c8-bd10-c7857ec8b14f.png)
 
 ### Meteo station
 
