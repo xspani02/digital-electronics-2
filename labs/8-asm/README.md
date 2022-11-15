@@ -144,9 +144,9 @@ A maximum-length LFSR produces an m-sequence i.e. it cycles through all possible
 
    | **Tap position** | **Generated values** | **Length** |
    | :-: | :-- | :-: |
-   | 4, 3 |  |  |
-   | 4, 2 |  |  |
-   | 4, 1 |  |  |
+   | 4, 3 | 0 1 3 7 14 13 11 6 12 9 2 5 10 4 8 | 15 |
+   | 4, 2 | 0 1 3 6 12 8 | 6 |
+   | 4, 1 | 0 1 2 5 10 4 9 3 6 13 11 7 14 12 8 | 15 |
 
 2. (Optional) In `main.c` file, program the C function `uint8_t lfsr4_fibonacci_c(uint8_t value)`, which generates a 4-bit LFSR sequence with a maximum length. In the `.lst` file compare both functions, in assembly and your C-realization. What is the duration of both functions in CPU cycles?
 
