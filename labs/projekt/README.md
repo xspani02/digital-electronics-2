@@ -92,6 +92,13 @@ Enconder in our project controls the blinking speed of the LEDs. It is driven in
 
 16x2 character LCD display with 8-bit parallel data interface. Supply voltage is 5V. Its controlled by 10-bit instructions. From LSB to MSB are 8-bits of data and the next 2-bits are Read and Write operating bits.
 
+![image](https://user-images.githubusercontent.com/99726477/205435246-52842a16-c7c0-4014-881b-cd2b4b707686.png)
+
+Pinout:
+
+![image](https://user-images.githubusercontent.com/99726477/205435281-7e80ee4f-f1b4-459c-ac3e-b6893d463a5d.png)
+
+
 #### Function
 
 The LCD displays the coordinates of XY axis, encoder blink rate value and joystick direction with its custom directional arrow characters
@@ -106,5 +113,6 @@ https://youtu.be/HDc3q6Czcmg
 
 ## References
 
-1. Write your text here.
-2. ...
+1. https://www.tme.eu/Document/07d3a201631d75ac52980710936cebec/410-142P.pdf
+2. https://uelectronics.com/producto/modulo-ky-023-sensor-joystick/
+3. https://www.rcscomponents.kiev.ua/datasheets/ky-040-datasheet.pdf
