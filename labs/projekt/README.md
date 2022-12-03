@@ -34,8 +34,6 @@ The goal of the project is cooperation in pairs, further study of the topic, des
 
 ## Hardware description
 
-Insert descriptive text and schematic(s) of your implementation.
-
 With the help of specified hardware components and Arduino, we created an implementation where we use the Encoder and Joystick to control the LEDs in the shape of a cross and display the data on the LCD.
 
 ### Schematic
@@ -54,6 +52,12 @@ LEDs are connected in active low mode.
 Analog joystick KY-02 has two directions of movement and one switch.
 The output voltage is from 0 to 5V. In the central position, there is 2.5V on the X axis and 2.5V on the Y axis.
 
+Image of joystick with pinout: 
+![image](https://user-images.githubusercontent.com/99726477/205435078-5420fdbe-3946-4966-8be4-b5c7d6b6ce2a.png)
+
+Direction values:
+![image](https://user-images.githubusercontent.com/99726477/205435130-8c0e79b9-57f4-4aef-98aa-ac7b92c0f4b1.png)
+
 #### Function
 
 It controls LEDs that are arranged in the shape of a cross. Using the Arduino's analog input, it reads the voltage on the VRx and VRy pins, where the conversion is via the Arduino's built-in ADC.
@@ -65,6 +69,13 @@ It controls LEDs that are arranged in the shape of a cross. Using the Arduino's 
 #### Description
 
 KY-040 is a rotary encoder that provides an output of how much it was turned and in which direction. The supply voltage is 5V and has 20 pulses per 360 degrees. It also includes a switch with a digital output.
+
+Pinout:
+![image](https://user-images.githubusercontent.com/99726477/205434930-50e16daf-f3ed-4ef1-aaff-bf3b9e7298a7.png)
+
+Image of two data signals which determine a direction of rotating (taken from datasheet):
+![image](https://user-images.githubusercontent.com/99726477/205435020-c9411c68-0b3f-4a49-8d00-867d629956a3.png)
+
 
 #### Function
 
