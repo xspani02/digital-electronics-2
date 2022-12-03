@@ -53,9 +53,11 @@ Analog joystick KY-02 has two directions of movement and one switch.
 The output voltage is from 0 to 5V. In the central position, there is 2.5V on the X axis and 2.5V on the Y axis.
 
 Image of joystick with pinout: 
+
 ![image](https://user-images.githubusercontent.com/99726477/205435078-5420fdbe-3946-4966-8be4-b5c7d6b6ce2a.png)
 
 Direction values:
+
 ![image](https://user-images.githubusercontent.com/99726477/205435130-8c0e79b9-57f4-4aef-98aa-ac7b92c0f4b1.png)
 
 #### Function
@@ -71,9 +73,11 @@ It controls LEDs that are arranged in the shape of a cross. Using the Arduino's 
 KY-040 is a rotary encoder that provides an output of how much it was turned and in which direction. The supply voltage is 5V and has 20 pulses per 360 degrees. It also includes a switch with a digital output.
 
 Pinout:
+
 ![image](https://user-images.githubusercontent.com/99726477/205434930-50e16daf-f3ed-4ef1-aaff-bf3b9e7298a7.png)
 
 Image of two data signals which determine a direction of rotating (taken from datasheet):
+
 ![image](https://user-images.githubusercontent.com/99726477/205435020-c9411c68-0b3f-4a49-8d00-867d629956a3.png)
 
 
