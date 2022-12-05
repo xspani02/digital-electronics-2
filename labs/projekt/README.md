@@ -41,7 +41,7 @@ With the help of specified hardware components and Arduino, we created an implem
 ![image](https://user-images.githubusercontent.com/99726477/205600907-74013b84-106c-434c-acf8-7c61260386c1.png)
 
 Components are connected to Arduino Uno like on the schematic. 
-On schematic is used HD44780 LCD display due to missing Digilent PmodCLP LCD module in SimullDE softwere.
+It's used HD44780 LCD display due to missing Digilent PmodCLP LCD module in SimullDE softwere.
 
 LEDs are connected in active low mode. Joystick is in position of up-right corner to demonstrate the function of circuit.
 
