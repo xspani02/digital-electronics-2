@@ -103,6 +103,13 @@ Pinout:
 
 The LCD displays the coordinates of XY axis, encoder blink rate value and joystick direction with its custom directional arrow characters
 
+### LEDs
+
+LEDs used in the circuit has RED color, Package: DIL
+
+![image](https://user-images.githubusercontent.com/99726477/205602378-859bb8f7-a3a6-496c-943f-c0729d48a317.png)
+
+
 ## Software description
 
 Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
