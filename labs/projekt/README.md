@@ -120,7 +120,7 @@ Put flowchats of your algorithm(s):
 
 ![main() flowchart](https://user-images.githubusercontent.com/99726477/206249152-b1a7adec-ce92-482e-8fa0-cd7f7217b228.png)
 
-![timer1 flowchart](https://user-images.githubusercontent.com/99726477/206249192-36e56f9d-d946-4609-a644-ab7e76783d35.png)
+![TIMER (1) drawio](https://user-images.githubusercontent.com/99726477/206250570-910ffbef-407b-4804-8bf5-ca6d63b19a8d.png)
 
 ![last_flow](https://user-images.githubusercontent.com/99726477/206249230-9dc758b1-da6f-48db-9fc5-d24f2247aab8.png)
 
