@@ -29,8 +29,8 @@ The goal of the project is cooperation in pairs, further study of the topic, des
 
 ### Team members
 
-* Martin Šmelka
-* Šimon Špánik
+* Martin Šmelka(App Design, Code, Device Planning)
+* Šimon Špánik(Device Planning, Documentation)
 
 ## Hardware description
 
@@ -111,12 +111,23 @@ LEDs used in the circuit has RED color, Package: DIL
 
 
 ## Software description
+ 1. **Timer:** [timer.h](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/include/timer.h)
+ 2. **Gpio:** [gpio.c](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/lib/gpio/gpio.c), [gpio.h](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/lib/gpio/gpio.h)
+ 3. **LCD:** [lcd.c](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/lib/lcd/lcd.c), [lcd.h](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/lib/lcd/lcd.h), [lcd_definitions.h](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/lib/lcd/lcd_definitions.h)
+ 4. **Source:** [main.c](https://github.com/MartinSmelka/Digital-Electronics-2-Smelka/blob/main/Labs/Projekt1/Projekt1/src/main.c)
 
-Put flowchats of your algorithm(s). Write descriptive text of your libraries and source files. Put direct links to these files in `src` or `lib` folders.
+Put flowchats of your algorithm(s):
+
+![main() flowchart](https://user-images.githubusercontent.com/99726477/206249152-b1a7adec-ce92-482e-8fa0-cd7f7217b228.png)
+
+![timer1 flowchart](https://user-images.githubusercontent.com/99726477/206249192-36e56f9d-d946-4609-a644-ab7e76783d35.png)
+
+![last_flow](https://user-images.githubusercontent.com/99726477/206249230-9dc758b1-da6f-48db-9fc5-d24f2247aab8.png)
+
 
 ## Video
 
-https://youtu.be/HDc3q6Czcmg
+[Youtube Link to View the Implementation of the Project](https://youtu.be/HDc3q6Czcmg)
 
 ## References
 
