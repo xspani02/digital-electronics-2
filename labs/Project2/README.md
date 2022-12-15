@@ -139,14 +139,14 @@ The individual duty cycles for control SERVOs are set up by datasheet of SG90 se
 For this purpouse theres computed values of diviser OCR1B and OCR1A.  (example>   20ms*(1499/19999) = 1.5ms)
 
 SERVO A (OCR1B)
-1ms...  999
-1.5ms.. 1499
+1ms...  999,
+1.5ms.. 1499,
 2ms.... 1999
 
 
 SERVO B (OCR2B)
-1ms .... 8
-1.5ms .. 12
+1ms .... 8,
+1.5ms .. 12,
 2ms .... 16
 
 ## Flowcharts
